@@ -17,7 +17,7 @@ Tax Form Advisor simplifies the process of selecting the correct ITR form based 
 To use Tax Form Advisor:
 
 1. **Start the Application:**
-   - Visit the [Tax Form Advisor](https://example.com) website.
+   - Visit the [Tax Form Advisor](https://itr-advisor.vercel.app) website.
    
 2. **Answer Questions:**
    - Follow the prompts to answer questions about your income sources and financial situation.
@@ -35,5 +35,15 @@ To run Tax Form Advisor locally:
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/dikshantrajput/tax-form-advisor
    cd tax-form-advisor
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+
+4. **Run server**:
+
+   ```bash
+   npm run dev
