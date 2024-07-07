@@ -19,7 +19,7 @@
 
 <button
   on:click={toggleTheme}
-  class="p-2 rounded-full bg-background-light text-text"
+  class="p-2 rounded-full  dark:bg-background-light bg-background-dark text-text"
 >
   {#if $theme === ThemesEnum.DARK}
     🌙

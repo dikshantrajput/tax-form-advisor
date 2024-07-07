@@ -19,11 +19,8 @@
 </script>
 
 <div class="min-h-screen bg-background text-text">
-  <nav class="p-4 bg-background-light">
+  <div class="absolute top-0 sm:p-4 p-2">
     <ThemeToggler />
-  </nav>
-
-  <main class="p-4">
-    <slot />
-  </main>
+  </div>
+  <slot />
 </div>

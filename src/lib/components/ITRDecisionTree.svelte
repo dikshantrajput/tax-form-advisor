@@ -1,9 +1,7 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import { fade, fly, slide } from "svelte/transition";
+  import { fly, slide } from "svelte/transition";
   import { quintOut } from "svelte/easing";
 
-  // Define the type for each node in the decision tree
   type TaxFormData = {
     question: string;
     yes?: TaxFormData;
@@ -11,7 +9,6 @@
     result?: string;
   };
 
-  // Initial tax form data structure
   let taxFormData: TaxFormData = {
     question: "Are you filing as an individual?",
     yes: {
@@ -366,10 +363,15 @@
     {/if}
 
     {#if loading}
-      <div class="flex justify-center my-4 sm:my-6">
-        <div
-          class="animate-spin rounded-full h-8 w-8 sm:h-10 sm:w-10 border-t-4 border-b-4 border-primary"
-        ></div>
+      <div class="flex justify-center items-center my-8">
+        <div class="relative">
+          <div
+            class="w-10 h-10 rounded-full border-4 border-primary opacity-20 animate-ping"
+          ></div>
+          <div
+            class="absolute top-0 left-0 w-10 h-10 rounded-full border-4 border-t-primary border-r-primary border-b-transparent border-l-transparent animate-spin"
+          ></div>
+        </div>
       </div>
     {/if}
 
