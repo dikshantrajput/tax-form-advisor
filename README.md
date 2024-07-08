@@ -2,6 +2,7 @@
 
 Tax Form Advisor is a web application designed to assist users in determining the appropriate Income Tax Return (ITR) form for filing their taxes in India.
 
+P.S. I am not a financial advisor or related to any firm. I just found it difficult to choose between ITR forms so I created this
 ## Overview
 
 Tax Form Advisor simplifies the process of selecting the correct ITR form based on the user's financial situation. It guides users through a series of questions and provides real-time recommendations tailored to their specific needs.
