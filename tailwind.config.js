@@ -4,6 +4,9 @@ export default {
   darkMode: 'class', // Enable dark mode variant
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
+      },
       colors: {
         primary: {
           DEFAULT: 'rgb(var(--color-primary) / <alpha-value>)',

@@ -1,8 +1,13 @@
+@import './lib/fonts/index.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
   :root {
     --color-primary: 99 102 241;
     --color-primary-light: 129 140 248;
